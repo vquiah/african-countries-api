@@ -618,7 +618,7 @@ app.get('/', (req,res)=>{
 
 app.get('/api/:name',(req,res)=>{
    const countryName = req.params.name.toLowerCase()
-
+    console.log(country)
    if(country[countryName]){
     res.json(country[countryName])
    }else{
