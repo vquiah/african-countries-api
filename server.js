@@ -5,7 +5,7 @@ const PORT = 8000
 
 const country = {
 
-    "Algeria" : {
+    "algeria" : {
       "name": "Algeria",
       "Capital": "Algiers",
       "women": "31.6%",
@@ -16,7 +16,7 @@ const country = {
       "heritageSite": "The Casbah of Algiers, a citadel founded on the ruins of old Icosium, a Phoenician and later Roman city. Mosques dating back to the 17th century can be found there.",
       "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Algeria.svg"
      },
-    "Angola" : {
+    "angola" : {
        "name": "Angola",
        "Capital": "Luanda",
        "women": "36.8%",
@@ -27,7 +27,7 @@ const country = {
        "heritageSite": "M'banza Kongo, capital of the Kingdom of Kongo, which flourished as one of the largest states in southern Africa from the 14th to the 19th century.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Angola.svg"
     },
-    "Benin" : {
+    "benin" : {
        "name": "Benin",
        "Capital": "Porto-Novo",
        "women": "7.2%",
@@ -38,7 +38,7 @@ const country = {
        "heritageSite": "The Royal Palaces of Abomey, the seat of 12 successive kings who ruled the powerful Kingdom of Abomey from 1625 to 1900.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Benin.svg"
       },
-    "Botswana" :{
+    "botswana" :{
        "name": "Botswana",
        "Capital": "Gaborone",
        "women": "9.5%",
@@ -49,7 +49,7 @@ const country = {
        "heritageSite": "Known as the 'Louvre of the Desert', Tsodilo in the Kalahari Desert contains over 4,500 well-preserved rock paintings produced over the past 100,000 years.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Botswana.svg"
       },
-    "Burkina Faso" : {
+    "burkina faso" : {
        "name": "Burkina Faso",
        "Capital": "Ouagadougou",
        "women": " 9.4%",
@@ -60,7 +60,7 @@ const country = {
        "heritageSite": "The 1,000-year-old Ruins of Loropéni, an imposing stone fortress that was the centre of the trans-Saharan gold trade from the 14th to 17th century.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Burkina_Faso.svg"
       },
-    "Burundi":{
+    "burundi":{
        "name": "Burundi",
        "Capital": "Bujumbura",
        "women": " 36.4%",
@@ -71,7 +71,7 @@ const country = {
        "heritageSite": "The royal domain of Gishora was founded by the Mwami Ntare Rugamba in the first half of the 19th century after its victory over the rebel leader Ntibirangwa.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Burundi.svg"
       },
-    "Cabo Verde (Cape Verde)":{
+    "cabo verde (cape verde)":{
        "name": "Cabo Verde (Cape Verde)",
        "Capital": "Praia",
        "women": "20.8%",
@@ -82,7 +82,7 @@ const country = {
        "heritageSite": " Cidade Velha, built in the 1460s as the first European town in the tropics. The founding of the town marked a decisive step in Europe’s colonisation of Africa.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Cape_Verde.svg"
       },
-    "Cameroon" :{
+    "cameroon" :{
        "name": "Cameroon",
        "Capital": "Yaoundé",
        "women": "31.1%",
@@ -93,7 +93,7 @@ const country = {
        "heritageSite": "The Dja Faunal Reserve is one of Africa’s largest and best-protected rain forests, almost completely surrounded by the Dja River and sheltering 107 mammal species, five of them threatened.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Cameroon.svg"
       },
-    "Central African Republic" :  {
+    "central african republic" :  {
        "name": "Central African Republic",
        "Capital": "Bangui",
        "women": "N/A",
@@ -104,7 +104,7 @@ const country = {
        "heritageSite": "Manovo-Gounda St Floris National Park, whose importance of derives from its wealth of flora and fauna.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_the_Central_African_Republic.svg"
       },
-    "Chad" : {
+    "chad" : {
        "name": "Chad",
        "Capital": "N’Djamena",
        "women": "14.9%",
@@ -115,7 +115,7 @@ const country = {
        "heritageSite": "Official languages: French and Arabic\nColonised by: France 1900-1960\nIndependence: 1960 – from France\nWorld Heritage Site: The Lakes of Ounianga, a series of lakes in the Sahara Desert.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Chad.svg"
       },
-    "Comoros" : {
+    "comoros" : {
        "name": "Comoros",
        "Capital": "Moroni",
        "women": "3%",
@@ -126,7 +126,7 @@ const country = {
        "heritageSite": "N/A",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_the_Comoros.svg"
       },
-    "Congo, Democratic Republic (DRC)" :  {
+    "congo, democratic republic (drc)" :  {
        "name": "Congo, Democratic Republic (DRC)",
        "Capital": "Kinshasa",
        "women": "8.9%",
@@ -137,7 +137,7 @@ const country = {
        "heritageSite": "The 490,000 hectare Garamba National Park covers vast grass savannahs and woodlands interspersed with gallery forests and marshland.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg"
       },
-    "Congo, Republic" : {
+    "congo, republic" : {
        "name": "Congo, Republic",
        "Capital": "Brazzaville",
        "women": "7.4%",
@@ -148,7 +148,7 @@ const country = {
        "heritageSite": "N/A",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_the_Republic_of_the_Congo.svg"
       },
-      "Côte d’Ivoire (Ivory Coast)" : {
+      "côte d’Ivoire (ivory coast)" : {
        "name": "Côte d’Ivoire (Ivory Coast)",
        "Capital": "Yamoussoukro",
        "women": "9.2%",
@@ -159,7 +159,7 @@ const country = {
        "heritageSite": "The historic town of Grand-Bassam, the first capital of Côte d’Ivoire, is an example of a late 19th-century colonial town planned with quarters specialising in commerce, administration, and different housing for Europeans and Africans.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_C%C3%B4te_d'Ivoire.svg"
       },
-      "Djibouti" : {
+      "djibouti" : {
        "name": "Djibouti",
        "Capital": "Djibouti City",
        "women": "12.7%",
@@ -170,7 +170,7 @@ const country = {
        "heritageSite": "The Abourma petroglyphs, several thousand Neolithic images carved in cave walls depicting humans, wildlife, hunting and warfare, dating back to 3,000 BCE.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Djibouti.svg"
       },
-      "Egypt" : {
+      "egypt" : {
        "name": "Egypt",
        "Capital": "Cairo",
        "women": "14.9%",
@@ -181,7 +181,7 @@ const country = {
        "heritageSite": "Ancient Thebes, with its temples and palaces at Karnak and Luxor, and the necropolises of the Valley of the Kings and the Valley of the Queens, is a striking testimony to Egyptian civilization at its height.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Egypt.svg"
       },
-      "Equatorial Guinea" : {
+      "equatorial guinea" : {
      "name": "Equatorial Guinea",
      "Capital": "Malabo, Oyala",
      "women": "24%",
@@ -192,7 +192,7 @@ const country = {
      "heritageSite": "Iron Age burial sites on the Island of Corisco, also known as Mandji, with intact 1,500-year-old tombs containing artefacts such as axes, spears, anklets, bracelets and unbroken pots.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Equatorial_Guinea.svg"
     },
-    "Eritrea" :{
+    "eritrea" :{
      "name": "Eritrea",
      "Capital": "Asmara",
      "women": "22%",
@@ -203,7 +203,7 @@ const country = {
      "heritageSite": "The historic perimeter of Asmara represents perhaps the most concentrated and intact assemblage of Modernist architecture in the world. Its urban design has remained untouched since the 1930s.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Eritrea.svg"
     },
-    "Ethiopia" :{
+    "ethiopia" :{
      "name": "Ethiopia",
      "Capital": "Addis Ababa",
      "women": "38.8%",
@@ -214,7 +214,7 @@ const country = {
      "heritageSite": "Ruins of the ancient city of Aksum, once the most powerful state between the Eastern Roman Empire and Persia.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Ethiopia.svg"
     },
-    "Gabon" :{
+    "gabon" :{
      "name": "Gabon",
      "Capital": "Libreville",
      "women": "14.2%",
@@ -225,7 +225,7 @@ const country = {
      "heritageSite": "The Ecosystem and Relict Cultural Landscape of Lopé-Okanda demonstrates an unusual interface between dense and well-conserved tropical rainforest and relict savannah environments with a great diversity of species, including endangered large mammals.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Gabon.svg"
     },
-    "The Gambia" :{
+    "the gambia" :{
      "name": "The Gambia",
      "Capital": " Banjul",
      "women": "9.4%",
@@ -236,7 +236,7 @@ const country = {
      "heritageSite": "Kunta Kinteh Island and related sites present a testimony to the main periods and facets of the encounter between Africa and Europe along the River Gambia, a continuum stretching from pre-colonial and pre-slavery times to independence.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_The_Gambia.svg"
     },
-    "Ghana" : {
+    "ghana" : {
      "name": "Ghana",
      "Capital": "Accra",
      "women": "10.9%",
@@ -247,7 +247,7 @@ const country = {
      "heritageSite": "The Asante Traditional Buildings, found to the north-east of Kumasi, are the last material remains of the great Asante civilization that reached its high point in the 18th century.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Ghana.svg"
     },
-    "Guinea" :{
+    "guinea" :{
      "name": "Guinea",
      "Capital": "Conakry",
      "women": "21.9%",
@@ -258,7 +258,7 @@ const country = {
      "heritageSite": "Mount Nimba, rising above the surrounding savannah, its slopes covered by dense forest at the foot of grassy mountain pastures, harbours rich flora and fauna that includes endemic species such as the viviparous toad.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Guinea.svg"
     },
-    "Guinea-Bissau" :{
+    "guinea-bissau" :{
      "name": "Guinea-Bissau",
      "Capital": "Bissau",
      "women": "13.7%",
@@ -269,7 +269,7 @@ const country = {
      "heritageSite": "The Archipelago of Bijagos, consisting of 88 islands and islets, is the most biodiverse region of Guinea-Bissau.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Guinea-Bissau.svg"
     },
-    "Kenya" : {
+    "kenya" : {
      "name": "Kenya",
      "Capital": "Nairobi",
      "women": "19.7%",
@@ -280,7 +280,7 @@ const country = {
      "heritageSite": " The Sacred Mijikenda Kaya Forests, 11 fortified villages set in forested land running over 200 kilometres along the coast. Known as kayas, the sites were first settled by the Mijikenda people in about 1560.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Kenya.svg"
     },
-    "Lesotho" :{
+    "lesotho" :{
      "name": "Lesotho",
      "Capital": "Maseru",
      "women": "25%",
@@ -291,7 +291,7 @@ const country = {
      "heritageSite": "The Maloti Drakensberg Transboundary World Heritage Site is known for its rock art and mountain landscape.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Lesotho.svg"
     }, 
-    "Liberia" :{
+    "liberia" :{
      "name": "Liberia",
      "Capital": "Monrovia",
      "women": "11%",
@@ -302,7 +302,7 @@ const country = {
      "heritageSite": "Providence Island is a former trade post and was the first point of arrival for freed American Slaves. The guitar-shaped island has a cement pillar and concrete floor believed to be the first concrete work in the history of the country, as well as an ancient water well and an old docking platform for incoming canoes and ships. On the site is also a 250-year-old cotton tree, the oldest in Liberia.",
      "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Liberia.svg"
     },
-    "Libya" :{
+    "libya" :{
        "name": "Libya",
        "Capital": "Tripoli",
        "women": "16%",
@@ -313,7 +313,7 @@ const country = {
        "heritageSite": "Cyrene was one of the principal cities in the ancient Hellenic world.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Libya.svg"
      },
-     "Madagascar" :{
+     "madagascar" :{
        "name": "Madagascar",
        "Capital": "Antananarivo",
        "women": "20.5%",
@@ -324,7 +324,7 @@ const country = {
        "heritageSite": "The Royal Hill of Ambohimanga, the cradle of a 500-year-old kingdom and dynasty that retains enormous spiritual importance to this day.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Madagascar.svg"
      },
-     "Malawi" : {
+     "malawi" : {
        "name": "Malawi",
        "Capital": "Lilongwe",
        "women": "16.7%",
@@ -335,7 +335,7 @@ const country = {
        "heritageSite": "The Chongoni Rock Art Area, lying in a cluster of forested granite hills high on the plateau of central Malawi, holds the richest concentration of rock art in Central Africa.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Malawi.svg"
      },
-     "Mali" :{
+     "mali" :{
        "name": "Mali",
        "Capital": "Bamako",
        "women": "8.8%",
@@ -346,7 +346,7 @@ const country = {
        "heritageSite": "The city of Timbuktu was an intellectual and spiritual capital and the centre of Islamic thought in Africa from the 15th to the 16th centuries.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Mali.svg"
      },
-     "Mauritania" : {
+     "mauritania" : {
        "name": "Mauritania",
        "Capital": "Nouakchott",
        "women": "25.2%",
@@ -357,7 +357,7 @@ const country = {
        "heritageSite": "The Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata were trading and religious centres founded in the 11th and 12th centuries to serve caravans crossing the Sahara.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Mauritania.svg"
      },
-     "Mauritius" :{
+     "mauritius" :{
        "name": "Mauritius",
        "Capital": "Port Louis",
        "women": "11.6%",
@@ -368,7 +368,7 @@ const country = {
        "heritageSite": "Aapravasi Ghat, a fortlike stone complex established by the UK in 1834, a year after slavery was abolished, as a global transit point for a new kind of slavery: indentured labour. About half a million mainly Indian labourers were processed through the site from 1849 to 1923.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Mauritius.svg"
      },
-     "Morocco" : {
+     "morocco" : {
        "name": "Morocco",
        "Capital": "Rabat",
        "women": "17%",
@@ -379,7 +379,7 @@ const country = {
        "heritageSite": "The Medina of Marrakesh, a massive old Islamic capital from the 11th century enclosed by 16 kilometres of ramparts and gates.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Morocco.svg"
      },
-     "Mozambique" :{
+     "mozambique" :{
        "name": "Mozambique",
        "Capital": "Maputo",
        "women": "39.6%",
@@ -390,7 +390,7 @@ const country = {
        "heritageSite": "The Island of Mozambique and its fortified city was a former Portuguese trading post on the route to India, used since the 16th century.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Mozambique.svg"
      },
-     "Namibia" :{
+     "namibia" :{
        "name": "Namibia",
        "Capital": "Windhoek",
        "women": "41.3%",
@@ -401,7 +401,7 @@ const country = {
        "heritageSite": "The Namib Sand Sea, covering an area of over 3-million hectares, is the only coastal desert in the world that includes extensive dune fields influenced by fog.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Namibia.svg"
      },
-     "Niger" : {
+     "niger" : {
        "name": "Niger",
        "Capital": "Niamey",
        "women": "13.3%",
@@ -412,7 +412,7 @@ const country = {
        "heritageSite": "Agadez, known as the gateway to the Sahara desert, developed in the 15th and 16th centuries when the Sultanate of Aïr was established and Touareg groups settled in the city in the boundaries of nomadic encampments, creating street patterns still in place today.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Niger.svg"
      },
-     "Nigeria" :{
+     "nigeria" :{
        "name": "Nigeria",
        "Capital": "Abuja",
        "women": "5.6%",
@@ -423,7 +423,7 @@ const country = {
        "heritageSite": "The dense forest of the Osun Sacred Grove, on the outskirts of the city of Osogbo, is one of the last remnants of primary high forest in southern Nigeria. It is regarded as the abode of the goddess of fertility Osun, one of the pantheon of Yoruba gods.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Nigeria.svg"
      },
-     "Rwanda" : {
+     "rwanda" : {
        "name": "Rwanda",
        "Capital": "Kigali",
        "women": "63.8%",
@@ -434,7 +434,7 @@ const country = {
        "heritageSite": "Nyamata, Murambi, Bisesero and Gisozi, memorial sites of the 1994 Genocide.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Rwanda.svg"
      },
-     "São Tomé and Príncipe":{
+     "são tomé and príncipe":{
        "name": "São Tomé and Príncipe",
        "Capital": "São Tomé",
        "women": "18.2%",
@@ -445,7 +445,7 @@ const country = {
        "heritageSite": "Unknow",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Sao_Tome_and_Principe.svg"
      },
-     "Senegal" : {
+     "senegal" : {
        "name": "Senegal",
        "Capital": "Dakar",
        "women": "42.7%",
@@ -456,7 +456,7 @@ const country = {
        "heritageSite": "The island of Gorée was the largest slave-trading centre on the African coast between the 15th and 19th centuries.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Senegal.svg"
      },
-     "Seychelles" : {
+     "seychelles" : {
        "name": "Seychelles",
        "Capital": "Victoria",
        "women": "43.8%",
@@ -467,7 +467,7 @@ const country = {
        "heritageSite": " Aldabra Atoll, four coral islands enclosing a lagoon and surrounded by a coral reef. Protected from human intrusion, the atoll is a safe haven for some 152,000 giant tortoises, the world’s largest population of the reptile.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Seychelles.svg"
      },
-     "Sierra Leone" :{
+     "sierra leone" :{
        "name": "Sierra Leone",
        "Capital": "Freetown",
        "women": "12.4%",
@@ -478,7 +478,7 @@ const country = {
        "heritageSite": "Bunce Island on the Sierra Leone River was established as a slave trading station in 1670. From here British traders shipped tens of thousands of African slaves to the Americas.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Sierra_Leone.svg"
      },
-     "Somalia" :{
+     "somalia" :{
        "name": "Somalia",
        "Capital": "Mogadishu",
        "women": "13.8%",
@@ -489,7 +489,7 @@ const country = {
        "heritageSite": "N/A",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Somalia.svg"
      },
-     "South Africa" : {
+     "south africa" : {
        "name": "South Africa",
        "Capital": "Pretoria, Bloemfontein and Cape Town",
        "women": "42%",
@@ -500,7 +500,7 @@ const country = {
        "heritageSite": " South Africa has nine Unesco World Heritage Sites. Five are cultural, three natural, and one of mixed cultural and natural heritage. The five cultural sites are the ǂKhomani Cultural Landscape, the Mapungubwe Cultural Landscape, the Richtersveld Cultural and Botanical Landscape, Robben Island, and the country’s rich fossil hominid sites. The three natural sites are the Cape Floral Region, iSimangaliso Wetland Park and the ancient Vredefort Dome meteor impact site. Finally, the uKhahlamba Drakensberg Mountains are valued for both their natural beauty and the rich cultural heritage of San Bushman paintings found in their caves and rock shelters.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_South_Africa.svg"
      },
-     "South Sudan" : {
+     "south sudan" : {
        "name": "South Sudan",
        "Capital": "Juba",
        "women": "26.5%",
@@ -511,7 +511,7 @@ const country = {
        "heritageSite": "N/A",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_South_Sudan.svg"
      },
-     "Sudan" : {
+     "sudan" : {
        "name": "Sudan",
        "Capital": "Khartoum",
        "women": "30.5%",
@@ -522,7 +522,7 @@ const country = {
        "heritageSite": "The archaeological sites of Gebel Barkal and the Napatan region in the Nile valley, testimony to the Napatan (900 to 270 BC) and Meroitic (270 BC to 350 AD) cultures of the second kingdom of Kush.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Sudan.svg"
      },
-     "Swaziland (Eswatini)" : {
+     "eswatini" : {
        "name": "Swaziland (Eswatini)",
        "Capital": "Mbabane",
        "women": "6.2%",
@@ -533,7 +533,7 @@ const country = {
        "heritageSite": "Ngwenya Mine is the site of the world’s earliest mining activity, and its iron ore deposits one of the oldest geological formations in the world.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Eswatini.svg"
      },
-     "Tanzania" :{
+     "tanzania" :{
        "name": "Tanzania",
        "Capital": "Dodoma",
        "women": "36.6%",
@@ -544,7 +544,7 @@ const country = {
        "heritageSite": "Kilimanjaro National Park",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Tanzania.svg"
      },
-     "Togo" : {
+     "togo" : {
        "name": "Togo",
        "Capital": "Lomé",
        "women": "17.6%",
@@ -555,7 +555,7 @@ const country = {
        "heritageSite": "Koutammakou, the land of the Batammariba people, whose remarkable mud tower-houses (takienta) have become a symbol of Togo.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Togo.svg"
      },
-     "Tunisia" : {
+     "tunisia" : {
        "name": "Tunisia",
        "Capital": "Tunis",
        "women": "31.3%",
@@ -566,7 +566,7 @@ const country = {
        "heritageSite": "The Amphitheatre of El Jem, built during the third century.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Tunisia.svg"
      },
-     "Uganda" : {
+     "uganda" : {
        "name": "Uganda",
        "Capital": "Kampala",
        "women": "35%",
@@ -577,7 +577,7 @@ const country = {
        "heritageSite": " The Tombs of Buganda Kings at Kasubi, the former palace of the Kabakas of Buganda, built in 1882 and converted into a royal burial ground in 1884.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Uganda.svg"
      },
-     "Zambia" : {
+     "zambia" : {
        "name": "Zambia",
        "Capital": "Lusaka",
        "women": "12.7%",
@@ -588,7 +588,7 @@ const country = {
        "heritageSite": "The Victoria Falls – Mosi-oa-Tunya, “the smoke that thunders” – is the world’s largest sheet of falling water, significant for the beauty of its spray, mist and permanent rainbows.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Zambia.svg"
      },
-     "Zimbabwe" : {
+     "zimbabwe" : {
        "name": "Zimbabwe",
        "Capital": "Harare",
        "women": "31.5%",
@@ -599,7 +599,7 @@ const country = {
        "heritageSite": "The ruins of Great Zimbabwe are a unique testimony to the Bantu civilization of the Shona between the 11th and 15th centuries.",
        "url1": "https://en.wikipedia.org/wiki/Flags_of_Africa#/media/File:Flag_of_Zimbabwe.svg"
      },
-     "Unknown" : {
+     "unknown" : {
         "name": "Unknown",
         "Capital": "Unknown",
         "women": "Unknown",
@@ -617,7 +617,7 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/api/:name',(req,res)=>{
-   const countryName = req.params.name.toLowerCase //change all the country names to lowercase
+   const countryName = req.params.name.toLowerCase()
 
    if(country[countryName]){
     res.json(country[countryName])
@@ -626,11 +626,6 @@ app.get('/api/:name',(req,res)=>{
    }
     
 })
-
-
-
-
-
 
 app.listen(process.env.PORT || PORT, ()=>{
     console.log(`The server is now running on port ${PORT}!, you better go catch it`);
